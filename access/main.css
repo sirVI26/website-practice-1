@@ -1,19 +1,27 @@
 
 .container{
-    padding: 20px;
-    width: 960px;
+    width: 100%;
     display: block;
+    max-width: 1024px;
+}
 
+body {
+    background-color: #2b2c30;
 }
 
 .header{
     display: flex;
-    position: relative;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(43, 44, 48, 0.4);
+    margin-left:auto ;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo_link{
@@ -22,6 +30,7 @@
     color: white;
     font-size: 24px;
     font-weight: 700;
+    padding: 10px 20px;
 }
 
 .side_bar{
@@ -31,10 +40,20 @@
 .nav_bar{
     list-style-type: none;
     display: flex;
+    margin: 0;
 }
 
 .logo_item{
     text-decoration: none;
+    color: #fff ;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 15px;
+}
+
+.logo_item:hover{
+    color:#ffee5c;
+    border-top: 1px solid #ffee5c;
 }
 
 .background_img{
@@ -42,7 +61,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    
-
+    right: 0;    
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
