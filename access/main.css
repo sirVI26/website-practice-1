@@ -1,0 +1,48 @@
+
+.container{
+    padding: 20px;
+    width: 960px;
+    display: block;
+
+}
+
+.header{
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_link{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.side_bar{
+
+}
+
+.nav_bar{
+    list-style-type: none;
+    display: flex;
+}
+
+.logo_item{
+    text-decoration: none;
+}
+
+.background_img{
+    background-image: url(./img/home-img.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+
+}
