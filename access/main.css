@@ -66,3 +66,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.nav_bar_item-service:hover .header_service-bar{
+    display: block;
+}
+
+.header_service-bar{
+    background-color: #2b2c30;
+    PADDING: 10px 0;
+    list-style: none;
+    width: 130px;
+    position: absolute;
+    top: 45px;
+    display: none;
+    transform: translateX(-15px);
+}
+
+.header_service-item{   
+    padding: 10px 17px;
+}
