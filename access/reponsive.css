@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+    .caption h2 {
+        font-size: 62px;
+    }
+}
+
+@media (min-width:740px) and (max-width:1023px) {
+    .caption h2 {
+        font-size: 54px;
+    }
+
+}
+
+@media (max-width: 739px) {
+    .side_bar {
+        display: none;
+    }   
+
+    .caption h2{
+        font-size: 38px;
+    }
+
+    .caption h3{
+        font-size: 28px;
+    }
+
+    .slogan{
+        font-size: 12px;
+    }
+}
